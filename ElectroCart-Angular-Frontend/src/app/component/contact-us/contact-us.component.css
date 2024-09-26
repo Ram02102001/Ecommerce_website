@@ -1,0 +1,117 @@
+/* General Styling */
+.contact {
+  background-color: #f9f9f9;
+  padding: 4rem 0;
+}
+
+.contact .tittle-w3l {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #333;
+}
+
+.contact .tittle-w3l span {
+  color: #e63946;
+}
+
+/* Contact Grid Styling */
+.contact-grid {
+  background-image:url("https://static9.depositphotos.com/1029110/1238/v/450/depositphotos_12382609-stock-illustration-modern-gps-map-icon.jpg");
+  background-size: cover;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.contact-grid:hover {
+  transform: translateY(-10px);
+}
+#contactgrid-2 {
+  background-image:url("https://static.vecteezy.com/system/resources/previews/014/873/884/original/customer-service-icon-call-center-icon-design-illustration-customer-service-icon-simple-and-modern-flat-symbol-vector.jpg");
+  background-size: cover;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+  #contactgrid-2:hover {
+    transform: translateY(-10px);
+  }
+
+  #contactgrid-3 {
+    background-image:url("https://thumbs.dreamstime.com/z/message-notification-icon-envelope-mail-red-marker-one-delivery-messages-sms-yellow-white-bubble-vector-illustration-201475562.jpg");
+    background-size: cover;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+    #contactgrid-3:hover {
+      transform: translateY(-10px);
+    }
+/* .contact-grid1 .con-ic i {
+  font-size: 2rem;
+  color: #e63946;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+} */
+
+.contact-grid h3 {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+.contact-grid p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.contact-grid a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #e63946;
+}
+
+.contact-grid a:hover {
+  color: #1d3557;
+}
+
+/* Contact Us Image Styling */
+.contact img {
+  margin-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-grid {
+    margin-bottom: 2rem;
+  }
+
+  .contact img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-grid {
+    padding: 1.5rem;
+  }
+
+  .contact .tittle-w3l {
+    font-size: 2rem;
+  }
+
+  .contact img {
+    width: 100%;
+  }
+}
